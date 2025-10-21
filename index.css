@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #EEEEEE;
+    background-color: #1B244A;
+    height: 385px;
+
+}
+.scoreBoard{
+    
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+
+}
+@font-face{
+    font-family: "CursedTimerUlil-Aznm";
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+.score{
+    
+    font-family: "CursedTimerUlil-Aznm", "Verdana";
+    font-weight: 400px;
+    font-style: Regular;
+    font-size: 90px;
+    line-height: 126.67px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #F94F6D;
+
+}
+
+.increment{
+    
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+.increment-btn{
+    
+    width: 45px;
+    height: 45px;
+    font-family:"CursedTimerUlil-Aznm";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27.81px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+}
